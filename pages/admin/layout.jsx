@@ -27,7 +27,7 @@ export default function Layout(props) {
                   <h2 className="text-3xl font-semibold tracking-normal">{title || ''}</h2>
                 </div>
               </div>
-              <div className="px-4 py-6 lg:px-8 bg-gray-200">
+              <div className="px-4 py-6 lg:px-8">
                 {children}
               </div>
             </div>
